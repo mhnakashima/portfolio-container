@@ -8,5 +8,5 @@ export default () => {
         mount(ref.current);
     });
 
-    return <div ref={ref} />
+    return <aside role='presentation' className='info' ref={ref} />
 }

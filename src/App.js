@@ -1,16 +1,12 @@
 import React from 'react';
-import ReactDom from 'react-dom';
 import InfoApp from './components/InfoApp';
-
 
 const App = () => {
 
     return (
         <>
             {/* Microfront with Main Info */}
-            <aside id="app-info">
-                <InfoApp />
-            </aside>
+            <InfoApp />
             <main className="menu">
                 {/* Micro with status, menu and Language Selection*/}
                 <div className="app-menu">
